@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: $fuente-sangrienta;
+}
+
+h2 {
+  color: $titulosrojos;
+  font-size: 3rem;
+}
+
+iframe {
+  max-width: 80rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  grid-area: header;
+  font-size: $letra-mediana;
+  background-image: url(../img/red4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5rem;
+  z-index: 1;
+}
+
+.header_img {
+  width: 100%; /*Ancho*/
+  height: 20rem; /*Altura*/
+  opacity: 0.6;
+  animation: sangre-aparece 7s; /*Animacion*/
+}
+
+@keyframes sangre-aparece {
+  0% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+a {
+  color: rgb(97, 240, 133);
+  text-decoration: none;
+}
+
+footer {
+  color: $titulosrojos;
+  font-size: $letra-mediana;
+  margin-top: 2rem;
+}

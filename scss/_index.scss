@@ -1,0 +1,124 @@
+/*Inicio de estilos del index*/
+
+#cuerpo-index {
+  background-image: url(../img/sonrisa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 376px, 90px, auto, 100px;
+  grid-template-areas:
+    "arriba arriba arriba"
+    "header header header"
+    "noticias noticias noticias"
+    "footer footer footer";
+}
+
+//anidación
+.navegacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  li {
+    display: inline;
+    margin-right: 9rem;
+    padding: 0.3rem 2rem;
+    background-color: none;
+    transition: background-color 1s; /*Tiempo que dura la transición*/
+  }
+  & li:hover {
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.596
+    ); /*color final del fondo de la transición*/
+  }
+}
+
+.arriba {
+  grid-area: arriba;
+}
+
+.parrafo-index {
+  color: $letraclara;
+  font-size: $letra-subtitulos;
+}
+
+.cards-index {
+  grid-area: noticias;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  justify-items: center;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.card {
+  border: groove rgb(61, 11, 14);
+  background-image: url(../img/colores.png);
+  background-color: rgba(226, 43, 156, 0.219);
+  @include imagen-fondo;
+  padding: 2rem;
+  color: $letraclara;
+  font-size: $letra-mediana;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: $pantalla-grande) {
+  .cards-index {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: $pantalla-chica) {
+  .navegacion {
+    flex-direction: column;
+  }
+
+  .cards-index {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.titulo_card {
+  text-align: center;
+  font-size: $letra-subtitulos;
+  color: $titulosrojos;
+  margin-bottom: 2rem;
+}
+
+.h1index {
+  color: $titulosrojos;
+  font-family: $fuente-sangrienta;
+  font-size: $letra-grande;
+  text-align: center;
+}
+
+#primer_parrafo {
+  margin-left: 5rem;
+  margin-bottom: 4rem;
+  background-image: url(../img/red2.png);
+  @include imagen-fondo;
+  text-align: center;
+  padding: 2rem;
+}
+
+.noticias_img {
+  width: 100rem; /*Ancho*/
+  margin-top: 2rem;
+}
+
+.noticias_video {
+  max-width: 100%; /*Ancho*/
+}
+
+/*Fin de estilos del index*/

@@ -1,0 +1,105 @@
+/*Estilos contacto*/
+
+.h1_contacto {
+  color: $titulosrojos;
+  font-size: $letra-grande;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.h2_contacto {
+  color: $titulosrojos;
+  font-family: $fuente-sangrienta;
+  font-size: $letra-grande;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.h3_contacto {
+  color: $titulosrojos;
+  font-family: $fuente-sangrienta;
+  font-size: $letra-grande;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.parrafos-formulario {
+  color: $letraclara;
+  font-size: $letra-mediana;
+  text-align: center;
+}
+
+#cuerpo-contacto {
+  background-image: url(../img/sonrisaroja.jpg);
+  @include imagen-fondo;
+  background-attachment: fixed;
+}
+
+input:focus {
+  width: 35rem;
+  background-color: $botonesfocus;
+  outline: none;
+}
+
+.formulario {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: $letraclara;
+  font-size: $letra-subtitulos;
+}
+
+form {
+  @include flex-column-centrado;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: none;
+  font-size: $letra-mediana;
+  gap: 2rem;
+}
+
+.leyenda {
+  font-size: $letra-subtitulos;
+  color: $letraclara;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.textarea:focus {
+  background-color: $botonesfocus;
+  outline: none;
+}
+
+.imagen-usuario {
+  margin-top: 2rem;
+  width: 20rem;
+
+  transition: width 2s; /*tiempo que dura la transición*/
+}
+
+.imagen-usuario:hover {
+  width: 25rem; /*ancho imagen final de la transición*/
+}
+
+.imagen-manocelular {
+  margin-top: 3rem;
+  width: 40rem;
+  transition: width 2s; /*tiempo que dura la transición*/
+}
+
+.imagen-manocelular:hover {
+  width: 45rem;
+}
+
+.ubicacion-contacto {
+  @include flex-column-centrado;
+}
+
+/*Fin de estilos de contacto*/

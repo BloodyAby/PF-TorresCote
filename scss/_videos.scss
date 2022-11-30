@@ -1,0 +1,40 @@
+/*Estilos videos*/
+
+.h1_videos {
+  color: $rosafuerte;
+  font-size: $letra-grande;
+  text-align: center;
+}
+
+#cuerpo-videos {
+  background-image: url(../img/craneoazulyrojo.jpg);
+  @include imagen-fondo;
+  background-attachment: fixed;
+}
+
+.card-videos {
+  border: groove rgb(61, 11, 14);
+  background-color: rgba(226, 43, 226, 0.185);
+  @include imagen-fondo;
+  padding: 2rem;
+  @include margenes(15rem, 15rem);
+}
+
+.div-videos {
+  margin-top: 5rem;
+  @include flex-column-centrado;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.titulos_parrafos_videos {
+  color: $rosafuerte;
+  font-size: $letra-subtitulos;
+}
+
+.parrafos_videos {
+  color: rgb(16, 221, 235);
+  font-size: $letra-mediana;
+}
+
+/*Fin estilos videos*/

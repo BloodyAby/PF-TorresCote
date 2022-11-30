@@ -1,0 +1,42 @@
+//Variables de color
+
+$naranjaoscuro: rgb(248, 95, 6);
+$naranjamedio: rgb(243, 145, 64);
+$naranjaclaro: rgb(250, 210, 151);
+$titulosrojos: rgb(235, 16, 16);
+$letraclara: rgb(238, 220, 220);
+$botonesfocus: rgb(243, 51, 76);
+$rosafuerte: rgb(235, 16, 126);
+
+//Variables letra:
+
+$fuente-sangrienta: "Rubik Wet Paint", cursive;
+$letra-grande: 4rem;
+$letra-subtitulos: 3rem;
+$letra-mediana: 2rem;
+
+//Variables media queries:
+
+$pantalla-grande: 1024px;
+$pantalla-chica: 768px;
+
+//Mixins:
+
+@mixin flex-column-centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin imagen-fondo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+//Mixin con parámetros:
+
+@mixin margenes($izquierda, $derecha) {
+  margin-left: $izquierda;
+  margin-right: $derecha;
+}

@@ -1,0 +1,31 @@
+/*Estilos Galeria*/
+
+#cuerpo-galeria {
+  background-image: url(../img/payasoo.png);
+  @include imagen-fondo;
+  background-attachment: fixed;
+}
+
+.h1_galeria {
+  color: $naranjamedio;
+  font-size: $letra-grande;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.imagen_galeria {
+  width: 150rem;
+  margin-bottom: 4rem;
+}
+
+.div_galeria {
+  margin-left: 15rem;
+  border: none rgb(61, 11, 14);
+}
+
+#carouselExampleControls {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/*Fin Estilos Galeria*/

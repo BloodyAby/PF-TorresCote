@@ -1,0 +1,46 @@
+/*Estilos peliculas y series*/
+
+.card-peliseries {
+  border: groove rgb(61, 11, 14);
+  background-image: url(../img/tinta\ negra.png);
+  background-color: rgba(226, 162, 43, 0.144);
+  @include imagen-fondo;
+  @include margenes(15rem, 15rem);
+}
+
+#cuerpo-peliseries {
+  background-image: url(../img/calabazas.jfif);
+  @include imagen-fondo;
+  background-attachment: fixed;
+}
+
+.titulos_peliseries {
+  color: $naranjaoscuro;
+  font-family: $fuente-sangrienta;
+  font-size: $letra-grande;
+  text-align: center;
+  padding: 3rem;
+}
+
+.parrafos_peliseries {
+  color: $naranjaclaro;
+  font-size: $letra-mediana;
+}
+
+.titulos_parrafos_peliseries {
+  color: $naranjamedio;
+  font-size: $letra-subtitulos;
+  margin-bottom: 2rem;
+}
+
+.section_peliseries {
+  padding: 4rem;
+}
+
+.recuadros-peliseries {
+  padding: 2rem;
+  @include flex-column-centrado;
+  flex-wrap: wrap;
+}
+
+/*Fin de estilos peliculas y series*/
