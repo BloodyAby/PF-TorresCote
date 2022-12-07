@@ -5,6 +5,7 @@
 
 h1 {
   font-family: $fuente-sangrienta;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -28,6 +29,10 @@ header {
   background-size: cover;
   padding: 1.5rem;
   z-index: 1;
+}
+
+.claselogo {
+  height: 131px;
 }
 
 .header_img {

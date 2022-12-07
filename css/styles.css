@@ -6,6 +6,7 @@
 
 h1 {
   font-family: "Rubik Wet Paint", cursive;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -29,6 +30,10 @@ header {
   background-size: cover;
   padding: 1.5rem;
   z-index: 1;
+}
+
+.claselogo {
+  height: 131px;
 }
 
 .header_img {
@@ -150,15 +155,18 @@ header {
 
 .card {
   border: groove rgb(61, 11, 14);
-  background-image: url(../img/colores.png);
   background-color: rgba(226, 43, 156, 0.219);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding: 2rem;
   color: rgb(238, 220, 220);
   font-size: 2rem;
   margin: 0.5rem;
+}
+
+.fondocard-index {
+  background-image: url(../img/colores.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -222,7 +230,7 @@ header {
 }
 
 #cuerpo-peliseries {
-  background-image: url(../img/calabazas.jfif);
+  background-image: url(../img/fondomano.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -262,6 +270,10 @@ header {
 
 /*Fin de estilos peliculas y series*/
 /*Estilos Galeria*/
+.claselogo {
+  height: 100px;
+}
+
 #cuerpo-galeria {
   background-image: url(../img/payasoo.png);
   background-repeat: no-repeat;
@@ -270,8 +282,9 @@ header {
   background-attachment: fixed;
 }
 
-.h1_galeria {
+.h2_galeria {
   color: rgb(243, 145, 64);
+  font-family: "Rubik Wet Paint", cursive;
   font-size: 4rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -294,10 +307,12 @@ header {
 
 /*Fin Estilos Galeria*/
 /*Estilos videos*/
-.h1_videos {
+.h2_videos {
   color: rgb(235, 16, 126);
   font-size: 4rem;
   text-align: center;
+  color: rgb(235, 16, 126);
+  font-family: "Rubik Wet Paint", cursive;
 }
 
 #cuerpo-videos {
@@ -336,6 +351,11 @@ header {
 .parrafos_videos {
   color: rgb(16, 221, 235);
   font-size: 2rem;
+  text-align: center;
+}
+
+.videotamaño {
+  width: 400px;
 }
 
 /*Fin estilos videos*/

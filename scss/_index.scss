@@ -64,13 +64,16 @@
 
 .card {
   border: groove rgb(61, 11, 14);
-  background-image: url(../img/colores.png);
   background-color: rgba(226, 43, 156, 0.219);
-  @include imagen-fondo;
   padding: 2rem;
   color: $letraclara;
   font-size: $letra-mediana;
   margin: 0.5rem;
+}
+
+.fondocard-index {
+  background-image: url(../img/colores.png);
+  @include imagen-fondo;
 }
 
 @media screen and (max-width: $pantalla-grande) {

@@ -1,4 +1,7 @@
 /*Estilos Galeria*/
+.claselogo {
+  height: 100px;
+}
 
 #cuerpo-galeria {
   background-image: url(../img/payasoo.png);
@@ -6,8 +9,9 @@
   background-attachment: fixed;
 }
 
-.h1_galeria {
+.h2_galeria {
   color: $naranjamedio;
+  font-family: $fuente-sangrienta;
   font-size: $letra-grande;
   text-align: center;
   margin-bottom: 2rem;

@@ -1,9 +1,11 @@
 /*Estilos videos*/
 
-.h1_videos {
+.h2_videos {
   color: $rosafuerte;
   font-size: $letra-grande;
   text-align: center;
+  color: $rosafuerte;
+  font-family: $fuente-sangrienta;
 }
 
 #cuerpo-videos {
@@ -35,6 +37,11 @@
 .parrafos_videos {
   color: rgb(16, 221, 235);
   font-size: $letra-mediana;
+  text-align: center;
+}
+
+.videotamaño {
+  width: 400px;
 }
 
 /*Fin estilos videos*/
