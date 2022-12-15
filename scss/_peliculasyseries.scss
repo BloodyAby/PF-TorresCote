@@ -33,14 +33,15 @@
   margin-bottom: 2rem;
 }
 
-.section_peliseries {
-  padding: 4rem;
-}
-
 .recuadros-peliseries {
   padding: 2rem;
   @include flex-column-centrado;
   flex-wrap: wrap;
+  text-align: center;
+}
+
+.centradoo {
+  @include flex-column-centrado;
 }
 
 /*Fin de estilos peliculas y series*/

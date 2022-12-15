@@ -6,7 +6,8 @@
 
 h1 {
   font-family: "Rubik Wet Paint", cursive;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -147,6 +148,7 @@ header {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 2rem;
   justify-items: center;
+  margin-top: 3rem;
 }
 
 .footer {
@@ -155,11 +157,11 @@ header {
 
 .card {
   border: groove rgb(61, 11, 14);
-  background-color: rgba(226, 43, 156, 0.219);
+  background-color: rgba(226, 43, 156, 0.075);
   padding: 2rem;
   color: rgb(238, 220, 220);
   font-size: 2rem;
-  margin: 0.5rem;
+  margin: 3rem;
 }
 
 .fondocard-index {
@@ -192,7 +194,7 @@ header {
 .h1index {
   color: rgb(235, 16, 16);
   font-family: "Rubik Wet Paint", cursive;
-  font-size: 4rem;
+  font-size: 7rem;
   text-align: center;
 }
 
@@ -256,16 +258,19 @@ header {
   margin-bottom: 2rem;
 }
 
-.section_peliseries {
-  padding: 4rem;
-}
-
 .recuadros-peliseries {
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
+}
+
+.centradoo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*Fin de estilos peliculas y series*/
@@ -287,11 +292,6 @@ header {
   font-family: "Rubik Wet Paint", cursive;
   font-size: 4rem;
   text-align: center;
-  margin-bottom: 2rem;
-}
-
-.imagen_galeria {
-  width: 150rem;
   margin-bottom: 4rem;
 }
 
@@ -301,8 +301,14 @@ header {
 }
 
 #carouselExampleControls {
-  width: 60%;
+  width: 45%;
   margin: 0 auto;
+}
+
+.galeria-carrusel img {
+  height: 40vw;
+  width: 46vw;
+  object-fit: cover;
 }
 
 /*Fin Estilos Galeria*/
@@ -356,6 +362,7 @@ header {
 
 .videotamaño {
   width: 400px;
+  object-fit: contain;
 }
 
 /*Fin estilos videos*/
@@ -373,8 +380,8 @@ header {
   font-family: "Rubik Wet Paint", cursive;
   font-size: 4rem;
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .h3_contacto {
@@ -382,14 +389,15 @@ header {
   font-family: "Rubik Wet Paint", cursive;
   font-size: 4rem;
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .parrafos-formulario {
   color: rgb(238, 220, 220);
   font-size: 2rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 #cuerpo-contacto {
@@ -467,6 +475,12 @@ fieldset {
   align-items: center;
 }
 
+@media screen and (max-width: 673px) {
+  .mapa iframe {
+    width: 200px;
+    height: 200px;
+  }
+}
 /*Fin de estilos de contacto*/
 
 /*# sourceMappingURL=styles.css.map */

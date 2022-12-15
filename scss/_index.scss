@@ -56,6 +56,7 @@
   grid-template-columns: repeat(3, 1fr);
   row-gap: 2rem;
   justify-items: center;
+  margin-top: 3rem;
 }
 
 .footer {
@@ -64,11 +65,11 @@
 
 .card {
   border: groove rgb(61, 11, 14);
-  background-color: rgba(226, 43, 156, 0.219);
+  background-color: rgba(226, 43, 156, 0.075);
   padding: 2rem;
   color: $letraclara;
   font-size: $letra-mediana;
-  margin: 0.5rem;
+  margin: 3rem;
 }
 
 .fondocard-index {
@@ -102,7 +103,7 @@
 .h1index {
   color: $titulosrojos;
   font-family: $fuente-sangrienta;
-  font-size: $letra-grande;
+  font-size: 7rem;
   text-align: center;
 }
 
